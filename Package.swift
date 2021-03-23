@@ -12,7 +12,6 @@ let package = Package(
     products: [
         .library(
             name: "JSONKit",
-            targets: ["JSONKit"]),
     ],
     dependencies: [],
     targets: [
@@ -20,7 +19,6 @@ let package = Package(
             name: "JSONKit",
             path: "JSONKit",
             exclude: [
-                "JSONKit/Info.plist",
             ])
     ]
 )
