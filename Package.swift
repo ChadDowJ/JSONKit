@@ -17,9 +17,7 @@ let package = Package(
     targets: [
         .target(
             name: "JSONKit",
-            path: "JSONKit",
-            exclude: [
-                "Info.plist"
-            ])
+            path: "JSONKit"
+			)
     ]
 )
