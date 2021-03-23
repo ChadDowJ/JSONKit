@@ -19,6 +19,7 @@ let package = Package(
             name: "JSONKit",
             path: "JSONKit",
             exclude: [
+                "Info.plist"
             ])
     ]
 )
